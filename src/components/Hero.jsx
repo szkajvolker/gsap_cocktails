@@ -64,8 +64,16 @@ const Hero = () => {
     <>
       <section id="hero" className="noisy">
         <h1 className="title">MOJITO</h1>
-        <img src="/images/hero-left-leaf.png" alt="leaf-left" className="left-leaf" />
-        <img src="/images/hero-right-leaf.png" alt="right-left" className="right-leaf" />
+        <img
+          src="/gsap_cocktails/images/hero-left-leaf.png"
+          alt="leaf-left"
+          className="left-leaf"
+        />
+        <img
+          src="/gsap_cocktails/images/hero-right-leaf.png"
+          alt="right-left"
+          className="right-leaf"
+        />
         <div className="body">
           <div className="content">
             <div className="space-y-5 hidden md:block">
@@ -85,7 +93,13 @@ const Hero = () => {
         </div>
       </section>
       <div className="video absolute inset-0">
-        <video ref={videoRef} src="/videos/output.mp4" muted playsInline preload="auto" />
+        <video
+          ref={videoRef}
+          src="/gsap_cocktails/videos/output.mp4"
+          muted
+          playsInline
+          preload="auto"
+        />
       </div>
     </>
   );
